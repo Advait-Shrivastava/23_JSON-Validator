@@ -1,0 +1,178 @@
+
+input{
+    border-radius: 5px;
+}
+
+#header{
+    background-color: #E8E8E8;
+}
+
+table#t1{
+    width:100%;
+    text-align: center;
+    margin: auto;
+}
+
+table#t1 td{
+    border:0px solid black;
+    padding:15px;
+    font-size: 20px;
+    width:60%;
+}
+table#data_table{
+    width:80%;
+    text-align: center;
+    margin: auto;
+}
+p#project_name{
+    font-size:20px;
+    text-align: center;
+}
+p#curr_stage{
+    font-size:20px;
+    text-align: center;
+}
+
+p#home_btn{
+    text-align: center;
+}
+button.json_cat{
+    padding: 0;
+    font-size:20px;
+    color:maroon
+}
+
+p#json_type_prop_display{
+    font-size:20px;
+    color:purple;
+}
+p.prop_name{
+    color:green;
+    padding:0;
+}
+p.prop_value{
+    color:brown;
+    font-size: 16px;
+    padding:0;
+}
+td#left_panel{
+    vertical-align: top;
+}
+td#json_validation_msg_td{
+    vertical-align: top;
+    background-color: #F0F0F0;
+    padding: 0;
+    margin: 0;
+}
+#project_completion_msg{
+    font-size:25px;
+    color:purple;
+    font-weight: bold;
+}
+
+#edited_json_print{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:16px;
+    overflow:scroll; 
+    height:620px;
+    width:950px;
+    background-color:white;
+    border:2px solid lightgray;
+    margin: auto;
+    text-align: left;;
+}
+
+#json_heading{
+    font-size:26px;
+    color:purple;
+    font-weight: bold;
+}
+
+#json_validation_msg{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size:16px;
+    overflow:scroll; 
+    height:620px;
+}
+.OK{
+    color:green;
+}
+.ERR{
+    color:red;
+    font-weight: bold;
+}
+textarea#json_copy_paste_textarea{
+    font-size:16px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+#scene_pb_ic{
+    width:20%;
+    font-size:15px;
+}
+#action_response_pb_ic{
+    width:20%;
+    font-size:15px;
+}
+#asset_pb_ic{
+    width:20%;
+    font-size:15px;
+}
+#json_4_pb_ic{
+    width:20%;
+    font-size:15px;
+}
+#json_5_pb_ic{
+    width:20%;
+    font-size:15px;
+}
+.done{
+    font-size:25px;
+    color:black;
+}
+#mid_panel{
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+
+#scene_pb_c{
+    width:33%;
+}
+#action_response_pb_c{
+    width:33%;
+}
+#asset_pb_c{
+    width:34%;
+}
+.prop_name{
+    color:green;
+    font-size:16px;
+    padding: 0;
+}
+.prop_comments{
+    color:purple
+}
+a{
+    cursor: pointer;
+}
+/* table#data_table td{
+    border:2px solid black;
+    padding:15px;
+}
+
+td#left_panel{
+    width:20%;
+    text-align: left;
+}
+
+a.links{
+    font-weight: bold;
+    font-size:22px;
+}
+span.options{
+    font-size:20px;
+} */

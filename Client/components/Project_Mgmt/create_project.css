@@ -1,0 +1,43 @@
+
+input{
+    border-radius: 5px;
+}
+
+#header{
+    background-color: #E8E8E8;
+}
+
+table#t1{
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+
+table#t1 td{
+    border:0px solid black;
+    padding:15px;
+    font-size: 20px;
+}
+table#data_table{
+    width:80%;
+    text-align: center;
+    margin: auto;
+}
+
+/* table#data_table td{
+    border:2px solid black;
+    padding:15px;
+}
+
+td#left_panel{
+    width:20%;
+    text-align: left;
+}
+
+a.links{
+    font-weight: bold;
+    font-size:22px;
+}
+span.options{
+    font-size:20px;
+} */

@@ -1,0 +1,53 @@
+#header{
+    background-color: #E8E8E8;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+table#project_view{
+    width:90%;
+    text-align: center;
+    margin: auto;
+}
+
+table#project_view thead th{
+    border:2px solid black;
+    padding: 8px;
+    font-size: 20px;
+    background-color: lightgrey;
+    text-align: center;
+}
+table#project_view tbody td{
+    border:2px solid black;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+button.action_btn{
+    border-radius:5px;
+    font-size: 18px;
+}
+td#left_panel{
+    vertical-align: top;
+}
+span#loading_msg{
+    color:grey;
+    font-size: 22px;
+}
+/* table#data_table td{
+    border:2px solid black;
+    padding:15px;
+}
+
+td#left_panel{
+    width:20%;
+    text-align: left;
+}
+
+a.links{
+    font-weight: bold;
+    font-size:22px;
+}
+span.options{
+    font-size:20px;
+} */
